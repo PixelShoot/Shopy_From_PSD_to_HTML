@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="site_header_cont">
+				<div class="row col-lg-10">
+					<div class="col-lg-6 icons">
+						<div class="col-lg-1"><i class="fa fa-envelope-o" id="icons"></i></div>
+						<div class="col-lg-3"><a href="#">info@shopy.com</a></div>
+						<div class="col-lg-1"><i class="fa fa-address-book" id="icons"></i></div>
+						<div class="col-lg-5"><a href="2">453-555324-32</a></div>
+					</div>
+				</div>
+				<div class="row col-lg-2 social_icons">
+					<div class="col-lg-2"><a href=""><i class="fa fa-facebook"></i></a></div>
+					<div class="col-lg-2"><a href=""><i class="fa fa-twitter"></i></a></div>
+					<div class="col-lg-2"><a href=""><i class="fa fa-google-plus"></i></a></div>
+					<div class="col-lg-2"><a href=""><i class="fa fa-instagram"></i></a></div>
+				</div>
+			</div>
+			<div class="site_header_nav">
+				<div class="col-lg-3"><a href="index.html"><img src="img/Logo.png" alt=""></a></div>
+				<div class="col-lg-7">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="product_show.html">Hot Deals</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 nav_icons">
+					<div class="col-lg-3"><a href=""><i class="fa fa-search"></i></a></div>
+					<div class="col-lg-3"><a href=""><i class="fa fa-user-o"></i></a></div>
+					<div class="col-lg-3"><a href=""><i class="fa fa-shopping-basket"></i></a></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="product">
+		<div class="container">
+			<div class="col-lg-5">
+				<div class="item_content">
+					<img class="mySlides" src="img/anorak.png" style="height: auto; width: auto; max-width: 330px; height: 320px; margin-left: auto; margin-right: auto;">
+					<img class="mySlides" src="img/tshirt.png" style="height: auto; width: auto; max-width: 330px; height: 320px; margin-left: auto; margin-right: auto;">
+					<img class="mySlides" src="img/img.png" style="height: auto; width: auto; max-width: 330px; height: 320px; margin-left: auto; margin-right: auto;">
+
+					<div class="item_slider_picker">
+						<div class="col-lg-4" style="text-align: center;">
+							<div class="img_slide" onclick="currentDiv(1)">
+								<img class="demo" src="img/anorak.png" style="height: auto; width: auto; max-width: 70px; max-height: 50px;">
+							</div>
+						</div>
+						<div class="col-lg-4" style="text-align: center;">
+							<div class="img_slide" onclick="currentDiv(2)">
+								<img class="demo" src="img/tshirt.png" style="height: auto; width: auto; max-width: 70px; max-height: 50px;">
+							</div>
+						</div>
+						<div class="col-lg-4" style="text-align: center;">
+							<div class="img_slide" onclick="currentDiv(3)">
+								<img class="demo" src="img/img.png" style="height: auto; width: auto; max-width: 70px; max-height: 50px;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 item_info">
+					<h1>FULL WINTER KIT</h1>
+					<h3>Anorak + T-shirt + Half Jacket</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ullam asperiores dolorum eos deleniti distinctio. Voluptatem consectetur asperiores, commodi aperiam, soluta rerum nulla nam enim harum necessitatibus natus praesentium esse.</p>
+					<div class="row info">
+						<div class="col-lg-3 choose">Choose size</div>
+						<div class="col-lg-5 smxl">
+							<form action="">
+								<input type="radio" id="radio01" name="radio" checked />
+								<label for="radio01">S</label> -
+								<input type="radio" id="radio02" name="radio" />
+								<label for="radio02">M</label> -
+								<input type="radio" id="radio03" name="radio" />
+								<label for="radio03">L</label> -
+								<input type="radio" id="radio04" name="radio" />
+								<label for="radio04">XL</label>
+							</form>
+						</div>
+						<div class="col-lg-4 quantity_box">
+						<div class="choose">Choose quantity</div>
+							<div class="quantity">
+  							<input type="number" min="1" max="9" step="1" value="1">
+							</div>
+						</div>
+					</div>
+					<div class="row buy">
+						<div class="col-lg-6"><h3>Price: 120$</h3></div>
+						<div class="col-lg-3 buy_icons">
+							<span><i class="fa fa-globe"></i></span>
+							<span><i class="fa fa-cart-plus"></i></span>
+							<span><i class="fa fa-heart-o"></i></span>
+						</div>
+						<div class="col-lg-3"><button class="order_now">Order now</button></div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<section id="new_arrivals">
+		<div class="container">
+			<div class="new_arr_cont">
+				<div class="new_arr_header">
+					<h1><span>RELATED</span> PRODUCTS</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi veritatis vero atque ad, impedit quis harum sit, exercitationem eligendi nulla.
+					</p>
+				</div>
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="arr_item">
+							<div class="arr_item_img">
+								<img src="img/Product1.jpg" alt="">
+							</div>
+							<h3>Reebok Track Jacket</h3>
+							<h4>100$</h4>
+							<h5>sizes  :  s-m-l-xl</h5>
+							<div class="item_colors">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+														<div class="item_icons">
+							<span><i class="fa fa-globe"></i></span>
+							<span><i class="fa fa-cart-plus"></i></span>
+							<span><i class="fa fa-heart-o"></i></span>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="arr_item">
+							<div class="arr_item_img">
+								<img src="img/Product2.jpg" alt="">
+							</div>
+							<h3>Reebok Track Jacket</h3>
+							<h4>100$</h4>
+							<h5>sizes  :  s-m-l-xl</h5>
+							<div class="item_colors">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+														<div class="item_icons">
+							<span><i class="fa fa-globe"></i></span>
+							<span><i class="fa fa-cart-plus"></i></span>
+							<span><i class="fa fa-heart-o"></i></span>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="arr_item">
+							<div class="arr_item_img">
+								<img src="img/Product3.jpg" alt="">
+							</div>
+							<h3>Reebok Track Jacket</h3>
+							<h4>100$</h4>
+							<h5>sizes  :  s-m-l-xl</h5>
+							<div class="item_colors">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+														<div class="item_icons">
+							<span><i class="fa fa-globe"></i></span>
+							<span><i class="fa fa-cart-plus"></i></span>
+							<span><i class="fa fa-heart-o"></i></span>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="arr_item">
+							<div class="arr_item_img">
+								<img src="img/Product3.jpg" alt="">
+							</div>
+							<h3>Reebok Track Jacket</h3>
+							<h4>100$</h4>
+							<h5>sizes  :  s-m-l-xl</h5>
+							<div class="item_colors">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+														<div class="item_icons">
+							<span><i class="fa fa-globe"></i></span>
+							<span><i class="fa fa-cart-plus"></i></span>
+							<span><i class="fa fa-heart-o"></i></span>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="arr_item">
+							<div class="arr_item_img">
+								<img src="img/Product1.jpg" alt="">
+							</div>
+							<h3>Reebok Track Jacket</h3>
+							<h4>100$</h4>
+							<h5>sizes  :  s-m-l-xl</h5>
+							<div class="item_colors">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+														<div class="item_icons">
+							<span><i class="fa fa-globe"></i></span>
+							<span><i class="fa fa-cart-plus"></i></span>
+							<span><i class="fa fa-heart-o"></i></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sale_adv">
+					<div class="row">
+						<div class="col-lg-7">
+							<div class="winter_sale">
+								<div class="col-lg-3">
+									<div class="sale_img" style="background: url(img/sale.jpg)">Sale <div>50%</div></div>
+								</div>
+								<div class="col-lg-6">
+									<div class="col-lg-12"><h2>FULL WINTER KIT</h2></div>
+									<div class="col-lg-12"><h5>Half Jacket + Skinny Trousers + Boot leather</h5></div>
+								</div>
+								<div class="col-lg-2">
+									<div class="add_to_cart">
+										<div class="col-lg-6"><a href="#"><img src="img/tocart.png" alt=""></a></div>
+										<div class="col-lg-6"><h2>120<span>$</span></h2></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div class="adv_area">
+								<div>adv <span>area</span></div>
+								<div class="adv_size">470 x 100</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+			<section id="news">
+			<div class="container">
+				<div class="news_cont">
+				<div class="col-lg-7">
+						<div class="col-lg-4"><h3>NEWS LETTER</h3></div>
+						<div class="col-lg-8"><div class="news_desc">joins us now to get all news and spacial offers</div></div>
+					</div>
+					<form action="">
+						<div class="col-lg-3"><i class="fa fa-envelope-o"></i><input type="text" placeholder="type your email here"></div>
+						<div class="col-lg-2"><button class="join_us">join us</button></div>
+					</form>
+				</div>
+			</div>
+		</section>
+	<footer>
+		<div class="container">
+			<div class="col-lg-4"><div class="footer_logo"><img src="img/Logo.png" alt=""></div>
+			<p>Made by Gleb Strelchenko</p></div>
+			<div class="col-lg-2"><ul>
+				<li><a href="about.html">about us</a></li>
+				<li><a href="contact.html">contact us</a></li>
+				<li><a href="#">support</a></li>
+			</ul></div>
+			<div class="col-lg-2"><ul>
+				<li><a href="#">our feed</a></li>
+				<li><a href="#">terms and conditions</a></li>
+				<li><a href="#">our privacy</a></li>
+			</ul></div>
+			<div class="col-lg-2"><ul>
+				<li><a href="#">join us</a></li>
+				<li><a href="#">live support</a></li>
+			</ul></div>
+			<div class="col-lg-2"><h4>Payment Methods</h4><img src="img/Payment Images.jpg" alt=""></div>
+		</div>
+	</footer>
+	<script>var type="product_show";</script>
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="libs/five-star/rating.min.js"></script>
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/OwlCarousel/dist/owl.carousel.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
