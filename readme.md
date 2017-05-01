@@ -9,3 +9,4 @@ I've used
 <li><a href="https://github.com/agragregra/optimizedhtml-start-template">OptimizedHTML - Start HTML Template</a></li>
 </ul>
 <p>The index page is fully responsive</p>
+<p><a href="http://gsportfolio.kl.com.ua/shop/">Realisation of this template</a></p>
