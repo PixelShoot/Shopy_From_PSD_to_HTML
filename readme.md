@@ -10,3 +10,4 @@ I've used
 </ul>
 <p>The index page is fully responsive</p>
 <p><a href="http://gsportfolio.kl.com.ua/shop/">Realisation of this template</a></p>
+<img src="Home.jpg">
